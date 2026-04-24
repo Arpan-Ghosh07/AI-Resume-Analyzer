@@ -1,6 +1,7 @@
-const ResumeCard:()=>Element =()=>{
+import {Link} from "react-router";
+const ResumeCard=({resume}: {resume:Resume})=>{
     return(
-        <div>ResumeCard</div>
+        <Link to={`/resume/${resume.id}`}>ResumeCard</Link>
     )
 }
 export default ResumeCard
