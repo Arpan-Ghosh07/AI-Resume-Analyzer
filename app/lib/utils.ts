@@ -5,6 +5,13 @@
  * @param decimals - The number of decimal places to include (default: 2).
  * @returns A formatted string (e.g., "1.50 MB").
  */
+import {type ClassValue, clsx} from "clsx";
+import {twMerge} from "tailwind-merge";
+
+export function cn(...inputs: ClassValue[]) {
+    return twMerge(clsx(inputs))
+}
+
 export function formatSize(bytes: number, decimals: number = 2): string {
     if (bytes === 0) return '0 Bytes';
 
