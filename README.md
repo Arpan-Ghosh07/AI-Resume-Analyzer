@@ -1,87 +1,161 @@
-# Welcome to React Router!
+# 🚀 AI Resume Analyzer
 
-A modern, production-ready template for building full-stack React applications using React Router.
+An intelligent AI-powered Resume Analyzer that helps users evaluate, optimize, and improve their resumes using smart analysis and ATS-based scoring.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+🌐 **Live Demo:** https://ai-resume-analyzer-one-zeta.vercel.app/
 
-## Features
+---
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+## 📌 Overview
 
-## Getting Started
+The AI Resume Analyzer is a full-stack web application that allows users to upload resumes and receive:
 
-### Installation
+* 📊 ATS-based Resume Score
+* 💡 Personalized Feedback
+* 🔍 Skill Gap Analysis
+* 🎯 Job-role Matching Insights
 
-Install the dependencies:
+It leverages AI and NLP techniques to analyze resume content and provide actionable suggestions to improve job selection chances.
+
+---
+
+## ✨ Features
+
+* 📄 Resume Upload & Parsing (PDF/Text)
+* 🤖 AI-Based Resume Analysis
+* 📊 ATS Score Calculation
+* 🧠 Smart Feedback & Suggestions
+* 🎯 Job Matching System
+* 📈 Skill Gap Identification
+* 💻 Clean & Responsive UI
+* 🔐 Serverless Backend with Puter.js
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+* React.js
+* TypeScript
+* Tailwind CSS
+* Vite
+
+### Backend / AI
+
+* Puter.js
+* AI APIs
+* NLP Processing
+
+### Tools
+
+* Zustand
+* React Router
+
+---
+
+## ⚙️ Installation & Setup
+
+### 🔧 Prerequisites
+
+* Node.js
+* npm or yarn
+* Git
+
+---
+
+### 📥 Clone Repository
+
+```bash
+git clone https://github.com/Arpan-Ghosh07/AI-Resume-Analyzer.git
+cd AI-Resume-Analyzer
+```
+
+---
+
+### 📦 Install Dependencies
 
 ```bash
 npm install
 ```
 
-### Development
+---
 
-Start the development server with HMR:
+### ▶️ Run Development Server
 
 ```bash
 npm run dev
 ```
 
-Your application will be available at `http://localhost:5173`.
+---
 
-## Building for Production
 
-Create a production build:
+## 🧠 How It Works
 
-```bash
-npm run build
-```
+1. Upload your resume
+2. Extract text from the file
+3. AI analyzes:
 
-## Deployment
+   * Keywords
+   * Skills
+   * Experience
+4. Compare with job requirements
+5. Generate:
 
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+   * ATS Score
+   * Suggestions
+   * Missing skills
 
 ---
 
-Built with ❤️ using React Router.
+## 📸 Screenshots
+
+<img width="1917" height="958" alt="image" src="https://github.com/user-attachments/assets/cb740f4c-ce76-4111-834e-7249a4c7598e" />
+<img width="1892" height="957" alt="image" src="https://github.com/user-attachments/assets/18efde15-46b0-4b44-85d9-19856367dd11" />
+
+---
+
+## 📂 Project Structure
+
+```
+AI-Resume-Analyzer/
+│── src/
+│   ├── components/
+│   ├── pages/
+│   ├── hooks/
+│   ├── store/
+│   └── utils/
+│
+│── public/
+│── package.json
+│── vite.config.js
+```
+
+---
+
+## 🚀 Future Improvements
+
+* Resume vs Job Description Matching
+* Cover Letter Generator
+* Multi-language Support
+* Advanced Analytics Dashboard
+* Mobile App Version
+
+---
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a new branch
+3. Commit your changes
+4. Push and create a Pull Request
+
+---
+
+## ⭐ Support
+
+If you like this project:
+
+* ⭐ Star the repo
+* 📢 Share it
+* 🤝 Contribute
